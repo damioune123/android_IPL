@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LastFM</string>
+    <string name="title_artist_detail">Artist Detail</string>
+    <string name="url_last_fm"> </string>
+    <string name="error_connection">Votre smartphone n\'est pas connecte à internet !</string>
+    <string name="error_remote_host">Le site lasr fm semble rencontrer des problèmes</string>
+</resources>

@@ -1,0 +1,11 @@
+bizzness => model
+Model=> classes/informations nécessaires à la logique bizzness (ici faire des calculs)
+
+ex : Classe Calcule => attributs : opérande gauche / opérande droite / opérateur
+				   operandeGaucheActive
+
+Model : attention pas de setter /ici direct les fonctions utilisées dans Model (ucc direct a l interieur), on aurait pus mettre un model plus passif avec des getters et setters
+
+gérer en catégorie de bouttons
+
+On enrgistre les listenners des boutons dans onCreate()

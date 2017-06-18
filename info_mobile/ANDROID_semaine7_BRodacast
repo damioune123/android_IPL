@@ -1,0 +1,45 @@
+VUE = activité
+>
+|noitfy
+MODEL ==> Base de données ici attaquée via le model 
+>
+| addPart
+CONTROLLER = (quelque part) Broadcast Receiver
+
+La base de données a besoin du contexte, on la donne dans le constructeur du model => mauvais à la place, dans notre classe Application on construit le Dao qu'on passe au model
+
+CODE
+
+PACKAGE COTROLLOER /DAO/MODEL/VIEWS
+DAO => FeteDBHelper/LaFeteAdaptater/LaFeteDBContract
+
+role helper => construire la base de données : onCreate => SQLITEDAatabase.eecSQL(CREATE_DB); + COnstructeur = créee bddn + maj si version pas à jour
+LaFeteAdapater => n crée le DbHelper (constructeur) + open db = dbHelper+getWritableDatabase() +close+ insertParticipant (InsertINTO) => attaquée par le modelele+ Cursoer findCursorLatParticipants (ResultSet)+ ArrayListwParticipant> getLastParticipants
+LaFeteDBContract => fichier de configuration (BAseColum) => à la compilation
+
+
+
+MODEL: Participatn /SMSModel/SMSREceivedObserver
+
+CONTROLLER: smsREceiver
+model =(Builder)context.getApplicaitonContext().getModel();
+
+
+Participant p : new Participants(smsPart[0],..):
+model.insertParticipant(p);
+
+Builder
+
+laFeteteAdaptater ma Db = new LafeteAdapater(getApplicationContext);
+model = new SMSModel (maDB);
+
+}
+pubic get SMSModel ...
+ 
+
+onStop()
+=> dire au Model je ne suis pus visible donc ca ne m'interesse plus => unregsiter
+
+onStart
+
+ou onResume/onPause

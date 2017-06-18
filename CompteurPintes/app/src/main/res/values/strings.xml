@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CompteurPintes</string>
+    <string name="biere_1">La soirée commence </string>
+    <string name="biere_5">Le rythme s’accélère </string>
+    <string name="biere_8">Vous devenez super courageux, plus rien ne vous fait peur </string>
+    <string name="biere_10">Vous êtes super séduisant </string>
+    <string name="biere_12">Vous êtes maintenant invulnérable </string>
+    <string name="biere_15">Vous êtes maintenant invisible </string>
+    <string name="biere_18">3/4 du casier… </string>
+    <string name="biere_24">Yeah un casier ! </string>
+    <string name="biere_30">Pour rappel, les urgences c’est le numéro 100 </string>
+    <string name="biere_50"> I can see dead people </string>
+    <string name="logout">Se deconnecter</string>
+    <string name="back">Retour en arrière</string>
+    <string name="record">Record actuel :</string>
+    <string name="marge">Marge actuelle :</string>
+    <string name="title_activity_panic">PanicActivity</string>
+    <string name="tel">0495395516</string>
+</resources>
